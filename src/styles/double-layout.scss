@@ -1,0 +1,148 @@
+.double-layout {
+  color: #2c3e50;
+  margin-top: 20px;
+  height: calc(100%);
+  width: calc(100%);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+}
+
+/* 左侧伸缩样式 */
+.layout-left {
+  width: 70%;
+  height: 100%;
+  padding:0px;
+  background: #EEEEEE;
+  transition: 0.5s;
+  .layout-left-container{
+    background: #fff;
+    padding:20px;
+  }
+  .filter-container{
+    float:right;
+    padding:10px;
+    //background: rgba(51, 204, 153, .1);
+    margin-bottom:10px;
+    .el-button--primary.is-plain {
+      background: #fff;
+    }
+    .el-button.is-plain:hover {
+      background: #ecf5ff;
+      border-color: #409EFF;
+      color: #409EFF;
+    }
+    .el-button--primary.is-plain:active,.el-button--primary.is-plain:focus {
+      background: #ecf5ff;
+      color: #409EFF;
+    }
+  }
+}
+
+/* 拖拽div */
+.layout-proxy {
+  position: absolute;
+  top: 0;
+  cursor: w-resize;
+  opacity: 1;
+  left: 70%;
+  width: 10px;
+  height: 100%;
+  background-color: #ccc;
+  z-index:1999;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .12), 0 0 6px 0 rgba(0, 0, 0, .04);
+}
+
+/* 过渡类 */
+.left-enter,
+.left-leave-to {
+  margin-left: -200px;
+}
+
+.left-enter-active,
+.left-leave-active {
+  transition: 0.5s;
+}
+
+/* 中间部分样式 */
+.layout-center {
+  position: absolute;
+  left:calc(70% + 10px);
+  top:20px;
+  width: calc(30% - 10px);
+  height: 100%;
+  transition: 0.5s;
+  padding: 0px;
+  background: #EEEEEE;
+  .layout-center-container {
+    background: #fff;
+    padding: 10px;
+    height: 100% !important;
+    overflow: hidden;
+    .json-editor .CodeMirror {
+      height: 100% !important;
+    }
+    .filter-container {
+      float: right;
+      margin-top: 10px;
+      padding: 10px;
+      //background: rgba(51, 204, 153, .1);
+      margin-bottom: 10px;
+      .el-button--primary.is-plain {
+        background: #fff;
+      }
+      .el-button.is-plain:hover {
+        background: #ecf5ff;
+        border-color: #409EFF;
+        color: #409EFF;
+      }
+      .el-button--primary.is-plain:active,.el-button--primary.is-plain:focus  {
+        background: #ecf5ff;
+        color: #409EFF;
+      }
+    }
+    .filter-container:after {
+       clear:both;
+       content:'';
+       display:block;
+       width:0;
+       height:0;
+       visibility:hidden;
+    }
+    .tree{
+      height: calc(100% - 80px);
+      overflow: auto;
+      margin-top: 80px;
+    }
+  }
+  
+}
+.table-toolbar {
+  text-align: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.table-pager {
+  text-align: right;
+  margin-top:20px;
+  margin-right:20px;
+}
+.el-table--striped .el-table__body tr.el-table__row--striped.current-row td,
+.el-table__body tr.current-row>td {
+  background: #FFEFBB;
+}
+.el-dialog__body{
+  padding: 10px 20px;
+}
+.dialog-footer{
+  .el-button {
+    padding: 8px 15px;
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": "1718533",
+  "name": "web首页",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "688259",
+      "name": "煤炭开采",
+      "font_class": "meitankaicai",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "5163688",
+      "name": "铲子-01",
+      "font_class": "chanzi-",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "5708857",
+      "name": "仓库",
+      "font_class": "cangku",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "7310569",
+      "name": "销售分析",
+      "font_class": "xiaoshoufenxi",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "1132482",
+      "name": "未托管",
+      "font_class": "weituoguan",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "6517444",
+      "name": "操作-支出",
+      "font_class": "cz-zc",
+      "unicode": "e70c",
+      "unicode_decimal": 59148
+    },
+    {
+      "icon_id": "13756655",
+      "name": "setting",
+      "font_class": "setting-copy",
+      "unicode": "e780",
+      "unicode_decimal": 59264
+    },
+    {
+      "icon_id": "13756074",
+      "name": "合同9",
+      "font_class": "tianbao-copy",
+      "unicode": "e77f",
+      "unicode_decimal": 59263
+    },
+    {
+      "icon_id": "3447398",
+      "name": "监控类型-修改",
+      "font_class": "jiankongleixing-xiugai",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "5120175",
+      "name": "手机",
+      "font_class": "phone",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "6946958",
+      "name": "笔记",
+      "font_class": "biji",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "13749869",
+      "name": "报表仓库",
+      "font_class": "baobiaocangku",
+      "unicode": "e77e",
+      "unicode_decimal": 59262
+    }
+  ]
+}

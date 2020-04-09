@@ -1,0 +1,134 @@
+.user-management {
+      color: #2c3e50;
+      margin-top: 0px;
+      height: calc(100%);
+      width: calc(100%);
+  .filter-container{
+    float:right;
+    padding:10px;
+    margin-bottom:10px;
+    .el-button--primary.is-plain {
+      background: #fff;
+    }
+    .el-button.is-plain:hover {
+      background: #ecf5ff;
+      border-color: #409EFF;
+      color: #409EFF;
+    }
+    .el-button--primary.is-plain:active,.el-button--primary.is-plain:focus  {
+      background: #ecf5ff;
+      color: #409EFF;
+    }
+  }
+  .el-table .error-row {
+    background: #fbc4c4;
+  }
+  .el-table--enable-row-hover .el-table__body .error-row:hover>td {
+    background: #fbc4c4;
+  }
+  .sortable-ghost {
+    opacity: .8;
+    color: #fff !important;
+    background: #87b1e7 !important;
+  }
+  .menu-container {
+    width:100%;
+    margin-top:10px;
+    .menu-table {
+      width:50%;
+      min-height:508px;
+      padding:5px;
+      display: inline-block;
+      vertical-align: top;
+      box-sizing: border-box;
+      border-right:1px solid #ccc;
+    }
+    .menu-phone {
+      width:49%;
+      padding:5px;
+      display: inline-block;
+      vertical-align: top;
+      box-sizing: border-box;
+      .phone-box {
+        width:259.2px;
+        height: 504px;
+        margin-left:10px;
+        padding:22.5px;
+        background: url("../images/approval-phone.png");
+        background-size: contain;
+        .phone-item1 {
+          width:100%;
+          height: 100px;
+          padding:10px;
+          margin-top:20px;
+          background: #fff;
+        }
+        .phone-btns {
+          width:100%;
+          height:118px;
+          list-style: none;
+          padding:0;
+          background: #fff;
+          margin-top:20px;
+          li {
+            width:53.55px;
+            height:53.55px;
+            float:left;
+            text-align: center;
+            i {
+              display:inline-block;
+              width:100%;
+              text-align: center;
+              font-size: 18px;
+              padding-top:10px;
+            }
+            p {
+              margin:0;
+              width:100%;
+              line-height: 30px;
+              font-size:12px;
+              text-align: center;
+            }
+          }
+        }
+        .phone-item2{
+          width:100%;
+          height: 200px;
+          padding:10px;
+          margin-top:5px;
+          background: #fff;
+        }
+      }
+          .icon-srjd,
+          .icon-xmsp,
+          .icon-xnjk {
+            color: #EEB329;
+          }
+
+          .icon-szfb,
+          .icon-srqs,
+          .icon-zzcx,
+          .icon-hyfb,
+          .icon-lyss,
+          .icon-zdsy,
+          .icon-bmcx {
+            color: #3BB1EF;
+          }
+
+          .icon-sryb,
+          .icon-zjcx {
+            color: #EA5E45;
+          }
+
+          .icon-zcyb,
+          .icon-qycx,
+          .icon-qcqy {
+            color: #00A293;
+          }
+
+          .icon-bianji {
+            color: #CCCCCC;
+          }
+    }
+  }
+}
