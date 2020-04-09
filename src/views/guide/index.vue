@@ -370,7 +370,7 @@
     position: relative;
     overflow: hidden;
     margin-top: 50px;
-    background: #f0f0f0;
+    background: #F3F6FE;
   }
   .guide-main {
     width: 100%;
